@@ -1,0 +1,66 @@
+[[package]]
+name = "appdirs"
+version = "1.4.4"
+summary = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
+
+[[package]]
+name = "evdev"
+version = "1.4.0"
+summary = "Bindings to the Linux input handling subsystem"
+
+[[package]]
+name = "inotify-simple"
+version = "1.3.5"
+requires_python = ">=2.7,!=3.0.*,!=3.1.*"
+summary = "A simple wrapper around inotify. No fancy bells and whistles, just a literal wrapper with ctypes. Under 100 lines of code!"
+
+[[package]]
+name = "python-xlib"
+version = "0.31"
+summary = "Python X Library"
+dependencies = [
+    "six>=1.10.0",
+]
+
+[[package]]
+name = "six"
+version = "1.16.0"
+requires_python = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+summary = "Python 2 and 3 compatibility utilities"
+
+[[package]]
+name = "xkeysnail"
+version = "0.4.0"
+editable = true
+git = "https://github.com/mooz/xkeysnail.git"
+summary = "Yet another keyboard remapping tool for X environment."
+dependencies = [
+    "appdirs",
+    "evdev",
+    "inotify-simple",
+    "python-xlib",
+]
+
+[metadata]
+lock_version = "3.1"
+content_hash = "sha256:f71c6a9a5ee1032e06b96ae0bf01cf42e017c00ae6769d40f288acdb26d2fe1a"
+
+[metadata.files]
+"appdirs 1.4.4" = [
+    {file = "appdirs-1.4.4-py2.py3-none-any.whl", hash = "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"},
+    {file = "appdirs-1.4.4.tar.gz", hash = "sha256:7d5d0167b2b1ba821647616af46a749d1c653740dd0d2415100fe26e27afdf41"},
+]
+"evdev 1.4.0" = [
+    {file = "evdev-1.4.0.tar.gz", hash = "sha256:8782740eb1a86b187334c07feb5127d3faa0b236e113206dfe3ae8f77fb1aaf1"},
+]
+"inotify-simple 1.3.5" = [
+    {file = "inotify_simple-1.3.5.tar.gz", hash = "sha256:8440ffe49c4ae81a8df57c1ae1eb4b6bfa7acb830099bfb3e305b383005cc128"},
+]
+"python-xlib 0.31" = [
+    {file = "python_xlib-0.31-py2.py3-none-any.whl", hash = "sha256:1ec6ce0de73d9e6592ead666779a5732b384e5b8fb1f1886bd0a81cafa477759"},
+    {file = "python-xlib-0.31.tar.gz", hash = "sha256:74d83a081f532bc07f6d7afcd6416ec38403d68f68b9b9dc9e1f28fbf2d799e9"},
+]
+"six 1.16.0" = [
+    {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
+    {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
+]
