@@ -1,4 +1,4 @@
-from aggressive_pomodoro import __version__
+from breakthrough import __version__
 
 
 def test_version():
